@@ -12,7 +12,7 @@ import (
 
 func Gerar() *cli.App {
 	app := cli.NewApp()
-	app.Name = "Aplicação de linah de comando"
+	app.Name = "Aplicação de linha de comando"
 	app.Usage = "Busca Ips e Nomes de Servidor na internet"
 
 	flags := []cli.Flag{
